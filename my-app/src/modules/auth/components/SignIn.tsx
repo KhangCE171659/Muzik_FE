@@ -20,7 +20,7 @@ export default function SignIn() {
     "playlist-read-collaborative",
   ].join(" ");
 
-  const redirectUri = "http://127.0.0.1:3000";
+  const redirectUri = "https://muzik-fe.vercel.app/";
 
   const spotifyAuthUrl = `https://accounts.spotify.com/authorize?response_type=code&client_id=${clientId}&scope=${encodeURIComponent(
     scopes
